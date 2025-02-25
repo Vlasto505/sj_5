@@ -26,6 +26,12 @@
             echo "$name ma $age rokov <br>";
         }
         // komentAr
+
+
+        $zvierata = array("pes", "macka", "sliepka");
+        foreach($zvierata as $zviera){
+            echo "Zviera ". $zviera. "<br>";
+        }
     ?>
 </body>
 </html>
